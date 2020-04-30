@@ -30,3 +30,8 @@ section {
 .row .col-sm-4:hover {
     cursor: pointer;
 }
+.jumbo {
+    width : 250px;
+    min-height : 400px;
+ 
+}
