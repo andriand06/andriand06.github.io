@@ -31,7 +31,7 @@ section {
     cursor: pointer;
 }
 .jumbo {
-    width : 250px;
+    max-width : 350px;
     min-height : 400px;
  
 }
