@@ -31,7 +31,14 @@ section {
     cursor: pointer;
 }
 .jumbo {
-    max-width : 350px;
-    min-height : 400px;
+    align-items: center;
+    width : 500px;
+    max-height : 400px;
+ 
+}
+.realjumbo {
+    align-items: center;
+    width : 1200px;
+    max-height : 1200px;
  
 }
