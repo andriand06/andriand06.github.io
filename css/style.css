@@ -32,13 +32,13 @@ section {
 }
 .jumbo {
     align-items: center;
-    width : 500px;
-    max-height : 400px;
+    max-width : 500px;
+    height : auto;
  
 }
 .realjumbo {
     align-items: center;
-    width : 1200px;
-    max-height : 1200px;
+    max-width : 100%;
+    height : auto;
  
 }
