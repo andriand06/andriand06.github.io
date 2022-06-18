@@ -1,182 +1,196 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.nav{
-    background-color: #f0f0f0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:5rem 5rem;
+.nav {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 5rem;
 }
-.left-side{
-    position: relative;
-    left: 100px;
-    top: -10px;
+.left-side {
+  position: relative;
+  left: 100px;
+  top: -10px;
 }
-.andrian , .davinta{
-    font-weight: 600;
-    font-size: larger;
-    font-family: 'Rooster';
-    cursor: pointer;
+.andrian,
+.davinta {
+  font-weight: 600;
+  font-size: larger;
+  font-family: "Rooster";
+  cursor: pointer;
 }
 .right-side ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.right-side ul li{
-    list-style-type: none;
+.right-side ul li {
+  list-style-type: none;
 }
-.right-side ul li a{
-    text-decoration: none;
-    color: black;
-    
+.right-side ul li a {
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    font-stretch: expanded;
-    font-size: larger;
-    transition: 0.3s ease-in-out;
+a:hover {
+  font-stretch: expanded;
+  font-size: larger;
+  transition: 0.3s ease-in-out;
 }
-li:not(:last-child){
-    margin-right: 1rem;
+li:not(:last-child) {
+  margin-right: 1rem;
 }
-.name{
-    color: #09d;
+.name {
+  color: #09d;
 }
 .hero {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #f0f0f0;
-    text-align: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  text-align: center;
+  width: 100%;
 }
 .hero h1 {
-    margin: 2rem 0;
-    text-align: left;
+  margin: 2rem 0;
+  text-align: left;
 }
 .hero p {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .profil {
-    width: 250px;
-    height: 250px;
-   border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 hr {
-    width: 100%;
-    border-top: 4px solid #999;
+  width: 100%;
+  border-top: 4px solid #999;
 }
 #about h2 {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 #portfolio h2 {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
-#contact h2{
-    margin-top: 1rem;
+#contact h2 {
+  margin-top: 1rem;
 }
 section {
-    min-height: 600px;
+  min-height: 600px;
 }
 .portfolio {
-    background-color: #eee;
+  background-color: #eee;
 }
 .img-thumbnail {
-    margin: 10px;
-    width: 250px;
-    height: 100px;
+  margin: 10px;
+  width: 250px;
+  height: 100px;
 }
 .row .col-sm-4:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-.detail{
-    margin-top: 1.5rem;
-    font-size: larger;
-    color: #2d2d2d;
+.detail {
+  margin-top: 1.5rem;
+  font-size: larger;
+  color: #2d2d2d;
 }
 .jumbo {
-    align-items: center;
-    max-width : 100%;
-    height : auto;
- 
+  align-items: center;
+  max-width: 100%;
+  height: auto;
 }
 .realjumbo {
-    align-items: center;
-    max-width : 100%;
-    height : auto;
- 
+  align-items: center;
+  max-width: 100%;
+  height: auto;
 }
-.skills-wrapper{
-    width: 100%;
+.skills-wrapper {
+  width: 100%;
 }
-.details{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.bar{
-    width: 100%;
-    border: 2px solid #0d96e0;
-    border-radius: 10px;
+.bar {
+  width: 100%;
+  border: 2px solid #0d96e0;
+  border-radius: 10px;
 }
-.bar div{
-    width: 0%;
-    height: 9px;
-    background-color: #0d96e0;
+.bar div {
+  width: 0%;
+  height: 9px;
+  background-color: #0d96e0;
 }
-.skills:not(:last-child){
-    margin-bottom: 1.5rem;
+.skills:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
 
-#html-bar{
-    animation: html-fill 2s forwards;
+#html-bar {
+  animation: html-fill 2s forwards;
 }
 @keyframes html-fill {
-    100%{
-        width: 90%;
-    }
+  100% {
+    width: 90%;
+  }
 }
-#css-bar{
-    animation: css-fill 2s forwards;
+#css-bar {
+  animation: css-fill 2s forwards;
 }
 @keyframes css-fill {
-    100%{
-        width: 75%;;
-    }
+  100% {
+    width: 75%;
+  }
 }
-#js-bar{
-    animation: js-fill 2s forwards;
+#js-bar {
+  animation: js-fill 2s forwards;
 }
 @keyframes js-fill {
-    100%{
-        width: 70%;
-    }
+  100% {
+    width: 75%;
+  }
 }
-#jquery-bar{
-    animation: jquery-fill 2s forwards;
+#jquery-bar {
+  animation: jquery-fill 2s forwards;
 }
 @keyframes jquery-fill {
-    100%{
-        width: 55%;
-    }
+  100% {
+    width: 70%;
+  }
 }
-#laravel-bar{
-    animation: laravel-fill 2s forwards;
+#laravel-bar {
+  animation: laravel-fill 2s forwards;
 }
 @keyframes laravel-fill {
-    100% {
-        width: 75%;
-    }
+  100% {
+    width: 75%;
+  }
 }
-#react-bar{
-    animation: react-fill 2s forwards;
+#react-bar {
+  animation: react-fill 2s forwards;
 }
 @keyframes react-fill {
-    100%{
-        width: 70%;
-    }
+  100% {
+    width: 70%;
+  }
+}
+#nodejs-bar {
+  animation: nodejs-fill 2s forwards;
+}
+@keyframes nodejs-fill {
+  100% {
+    width: 65%;
+  }
+}
+#sql-bar {
+  animation: sql-fill 2s forwards;
+}
+@keyframes sql-fill {
+  100% {
+    width: 80%;
+  }
 }
